@@ -57,17 +57,17 @@ Read each .txt file.
 Extract dipole moment information.
 Compute Two-Photon Absorption (TPA) values.
 
-#### Citation
+### Citation
 If you use this workflow or the code provided in this repository for your research, please cite the following papers:
 
 Metal-Organic Layers with an Enhanced Two-Photon Absorption Cross-Section and UP-Converted Emission.DOI:10.1021/acs.chemmater.0c03457  
 Hexa-Branched Nanographenes with Large Two-Photon Absorption. DOI:10.1021/jacs.3c05662  
 Interpretable Machine Learning of Two-Photon Absorption. DOI:10.1002/advs.202204902 
 In this study, we developed models in MLatom and XACS that can directly predict two-photon absorption cross-sections using machine learning techniques.
-#### License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-#### Contact
+### Contact
 If you have any questions or need further assistance, please reach out to:
 Dr.Yuming Su  
 Email: 823808458@qq.com
