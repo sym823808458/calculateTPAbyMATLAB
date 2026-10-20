@@ -173,8 +173,10 @@ musquare20=mudebyesquare(1:21,1:21);
     lambda1=linspace(c/10^6/(omegaplot(1)/2/pi),c/10^6/(omegaplot(end)/2/pi),1000);
     epsilon=interp1(c/10^6./(omega1st/2/pi),sigma1stl*10^4/(3.825*10^(-19)),lambda1);
     %% calculating gama
+    % Save the original ground reference before the first diagonal becomes zero.
+    mu0 = mu(1,1,:);
     for i=1:size(mu,1)
-        mu(i,i,:)=mu(i,i,:)-mu(1,1,:);
+        mu(i,i,:)=mu(i,i,:)-mu0;
     end
     % omega=2*pi*299.8/760*10^15; %radpersecond
     omega=[((energy(2)-2*tau)/10^15/2:0.5*tau/10^15:(energy(statesnumlim)+2*tau)/10^15)/2 energy(2:statesnumlim)'/2/10^15];
