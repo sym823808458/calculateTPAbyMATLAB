@@ -43,6 +43,10 @@ Historical output files have not been overwritten. MATLAB execution was not
 available for this correction; rerun a known input and inspect signed response
 values before using the results scientifically.
 
+See [REFERENCE_FIX.md](REFERENCE_FIX.md) for the Python `.copy()` requirement,
+four-molecule impact comparison, unchanged off-diagonal elements and the separate
+relaxed-density question. Recompute affected results; do not use a universal scale factor.
+
 ## Requirements
 
 - **Gaussian**: For performing excited-state calculations.
